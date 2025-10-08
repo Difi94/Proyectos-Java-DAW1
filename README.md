@@ -1,3 +1,3 @@
-# 📁 Trabajos de clase - Java
+# 📁 Classwork - Java
 
-Este repositorio contiene una colección de mis trabajos y ejercicios realizados en Java en el módulo de programación.
+This repository contains a collection of my assignments and exercises done in Java for the programming module.
