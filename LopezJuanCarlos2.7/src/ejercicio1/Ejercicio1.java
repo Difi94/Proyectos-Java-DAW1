@@ -23,17 +23,24 @@ public class Ejercicio1 {
 		
 		System.out.println("Salario deseado:");
 		int salario = teclado.nextInt();
+		teclado.nextLine();
 		
-		if (edad > 45 || salario > 30000) {
+		
+		if (edad > 45 && salario > 30000) {
 			System.out.println("Su salario deseado, " + salario + " y su edad " + edad + " superan nuestros margenes deseados, lo sentimos pero no cumple nuestro perfil");
 		} else if (edad <45 && salario < 30000) {
 			System.out.println("Años de experiencia:");
 			int exp = teclado.nextInt();
-			
+			teclado.nextLine();
 			System.out.println("Proyectos trabajados anteriormente: ");
-			String proyectos = teclado.nextLine();
-		} if (exp >= 2 && proyectos >= 3) {
+			int proyectos = teclado.nextInt();
+			teclado.nextLine();
 			
+		} if (exp >= 2 && proyectos >= 3) {
+			System.out.println("Enhorabuena, has sido contratad@.");
+			
+		} else {
+			System.out.println("Lo sentimos, no cumple nuestro perfil.");
 		}
 		
 
