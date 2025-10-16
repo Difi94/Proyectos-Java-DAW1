@@ -1,16 +1,16 @@
 /*
- * Descripcion: programa para realizar una serie de entrevistas al usuario y segun las respuestas dar diferentes resultados.
+ * Descripcion: añado dos comprobaciones mas al programa del ejercicio 2
  * Autor: Juan Carlos
  * Fecha: 16/10/25
  */
-package ejercicio1;
+package ejercicio2;
 
 import java.util.Scanner;
 
-public class Ejercicio1 {
+public class Ejercicio2 {
 
 	public static void main(String[] args) {
-		Scanner teclado = new Scanner(System.in);
+        Scanner teclado = new Scanner(System.in);
 		
 		System.out.println("Introduzca su nombre:");
 		String nombre = teclado.nextLine();
@@ -37,16 +37,21 @@ public class Ejercicio1 {
 			teclado.nextLine();
 			if (exp >= 2 && proyectos >= 3) {
 				System.out.println("Enhorabuena, has sido contratad@.");
-				
+				double salarioAnual;
+				 if (exp >= 5 || proyectos >= 5) {
+		             salarioAnual = 30000;
+		                } else {
+		                    salarioAnual = 25000; 
+		                }
+				 System.out.println("Su salario anual asignado sere de: " + salarioAnual + " euros.");
+				 
 			} else {
-				System.out.println("Lo sentimos, no cumple nuestro perfil.");
-				
-			}
-			 
-			}
+                System.out.println("Lo sentimos pero no cumple nuestro perfil.");
+            }
 			
-		
-teclado.close();		
+			} 
+			
+teclado.close();
 	}
 
 }

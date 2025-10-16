@@ -15,7 +15,7 @@ public class Ejercicioclase2dowhile {
 		fin = teclado.nextInt();
 		int contador;
 		
-		if (inicio <= fin) {
+		if (inicio <= fin) { //cuenta incremental
 			System.out.println("Multiplos de 3 desde " + inicio + " hasta " + fin);
 			contador = inicio;
 			do {
@@ -25,7 +25,7 @@ public class Ejercicioclase2dowhile {
 				System.out.print(" " + contador);
 				contador = contador + 1;
 			} while (contador <= fin);
-		} else {
+		} else { //cuenta decremental
 			System.out.println("Multiplos de 3 desde " + inicio + " hasta " + fin);
 			contador = fin;
 			do {
