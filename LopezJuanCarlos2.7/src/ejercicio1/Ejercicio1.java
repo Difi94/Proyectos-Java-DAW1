@@ -1,7 +1,7 @@
 /*
- * Descripcion: programa para realizar una serie de entrevistas al usuario y segun las respuestas dar diferentes resultados.
- * Autor: Juan Carlos
- * Fecha: 16/10/25
+ * Descripcion:
+ * Autor:
+ * Fecha:
  */
 package ejercicio1;
 
@@ -22,31 +22,28 @@ public class Ejercicio1 {
 		int edad = teclado.nextInt();
 		
 		System.out.println("Salario deseado:");
-		double salario = teclado.nextDouble();
+		int salario = teclado.nextInt();
 		teclado.nextLine();
 		
 		
-		if (salario > 30000 || edad > 45) {
+		if (edad > 45 && salario > 30000) {
 			System.out.println("Su salario deseado, " + salario + " y su edad " + edad + " superan nuestros margenes deseados, lo sentimos pero no cumple nuestro perfil");
-		} else {
-			System.out.print("Introduzca sus años de experiencia: ");
+		} else if (edad <45 && salario < 30000) {
+			System.out.println("Años de experiencia:");
 			int exp = teclado.nextInt();
 			teclado.nextLine();
-			 System.out.print("Introduzca el numero de proyectos en los que ha trabajado: ");
+			System.out.println("Proyectos trabajados anteriormente: ");
 			int proyectos = teclado.nextInt();
 			teclado.nextLine();
-			if (exp >= 2 && proyectos >= 3) {
-				System.out.println("Enhorabuena, has sido contratad@.");
-				
-			} else {
-				System.out.println("Lo sentimos, no cumple nuestro perfil.");
-				
-			}
-			 
-			}
 			
+		} if (exp >= 2 && proyectos >= 3) {
+			System.out.println("Enhorabuena, has sido contratad@.");
+			
+		} else {
+			System.out.println("Lo sentimos, no cumple nuestro perfil.");
+		}
 		
-teclado.close();		
+
 	}
 
 }
