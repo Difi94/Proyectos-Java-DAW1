@@ -1,5 +1,6 @@
 /*
- * 
+ * Descripcion: números pares entre el 1 y el 200 sumando de 1 en 1. 
+ * Autor: Juan Carlos
  */
 package ejercicio3;
 

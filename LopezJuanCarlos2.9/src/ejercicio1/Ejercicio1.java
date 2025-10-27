@@ -1,5 +1,6 @@
 /*
- * 
+ * Descripcion: 20 primeros números naturales
+ * Autor: Juan Carlos
  */
 package ejercicio1;
 
