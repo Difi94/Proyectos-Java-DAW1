@@ -1,3 +1,7 @@
+/*
+ * Descripcion: números pares entre el 1 y el 200 sumando de 2 en 2.
+ * Autor: Juan Carlos
+ */
 package ejercicio2;
 
 public class Ejercicio2 {

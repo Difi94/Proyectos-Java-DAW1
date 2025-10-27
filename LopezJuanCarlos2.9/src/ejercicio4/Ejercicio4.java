@@ -1,5 +1,6 @@
 /*
- * 
+ * Descripcion: numeros desde al 1 hasta N
+ * Autor: Juan Carlos
  */
 package ejercicio4;
 

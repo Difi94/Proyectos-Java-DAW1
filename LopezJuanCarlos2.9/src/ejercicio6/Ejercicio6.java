@@ -1,7 +1,6 @@
 /*
- * Descripcion: leer 5 números no nulos y luego muestre un mensaje de si ha leído algún número negativo o no
+ * Descripcion: leer 5 números y mostrar un mensaje de si ha leído algún número negativo o no
  * Autor: Juan Carlos
- * Fecha:
  */
 package ejercicio6;
 

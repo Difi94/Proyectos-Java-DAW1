@@ -1,7 +1,6 @@
 /*
- * Descripcion:  leer un número positivo N y calcule y visualice su factorial N! Siendo el factorial
- * Autor:
- * Fecha:
+ * Descripcion: leer un número N y calcule y visualice su factorial
+ * Autor: Juan Carlos
  */
 package ejercicio5;
 
