@@ -13,7 +13,7 @@ public class Ejercicio8 {
 	public static void main(String[] args) {
 		Scanner teclado = new Scanner(System.in);
 		
-		//Peticion de datos personales
+		
 		System.out.println("Introduce tu nombre:");
 		String name = teclado.nextLine();
 		
@@ -74,7 +74,6 @@ public class Ejercicio8 {
             }
         }
 
-        //Mostrar resultados
         System.out.println("\n---------------------------------------------------------");
         System.out.println("Nombre: " + name + " " + surname);
         System.out.println("Edad: " + age);
@@ -84,10 +83,8 @@ public class Ejercicio8 {
         System.out.println("Ciudad de la ruta mas larga: " + ciudadMax);
         System.out.println("---------------------------------------------------------");
         
-        //Cerrar scanner
         teclado.close();
-		
-		
+		        
 	}
 
 }
