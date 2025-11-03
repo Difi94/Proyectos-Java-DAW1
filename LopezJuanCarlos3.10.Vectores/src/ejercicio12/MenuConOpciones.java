@@ -59,7 +59,6 @@ public class MenuConOpciones {
 
                 default:
                     System.out.println("Opción no válida. Intenta de nuevo.");
-                    break;
             }
 
         } while (!opcion.equalsIgnoreCase("c"));
