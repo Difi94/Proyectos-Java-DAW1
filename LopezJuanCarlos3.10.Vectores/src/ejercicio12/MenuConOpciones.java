@@ -16,7 +16,7 @@ public class MenuConOpciones {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int[] array = new int[10]; // Array de 10 enteros inicializado con 0 por defecto
+        int[] arrayenteros = new int[10]; // Array de 10 enteros inicializado con 0 por defecto
         String opcion;
 
         // Bucle infinito hasta que el usuario elija 'c'
@@ -31,8 +31,8 @@ public class MenuConOpciones {
             switch (opcion.toLowerCase()) {
                 case "a":
                     System.out.println("Valores actuales del array:");
-                    for (int i = 0; i < array.length; i++) {
-                        System.out.println("Posición " + i + ": " + array[i]);
+                    for (int i = 0; i < arrayenteros.length; i++) {
+                        System.out.println("Posición " + i + ": " + arrayenteros[i]);
                     }
                     break;
 
@@ -40,7 +40,7 @@ public class MenuConOpciones {
                     System.out.print("Introduce la posición (0-9): ");
                     int posicion = sc.nextInt();
 
-                    if (posicion < 0 || posicion >= array.length) {
+                    if (posicion < 0 || posicion >= arrayenteros.length) {
                         System.out.println("Posición inválida. Debe estar entre 0 y 9.");
                         sc.nextLine(); // Limpiar buffer
                         break;
@@ -48,7 +48,7 @@ public class MenuConOpciones {
 
                     System.out.print("Introduce el valor: ");
                     int valor = sc.nextInt();
-                    array[posicion] = valor;
+                    arrayenteros[posicion] = valor;
                     System.out.println("Valor asignado correctamente.");
                     sc.nextLine(); // Limpiar buffer
                     break;
