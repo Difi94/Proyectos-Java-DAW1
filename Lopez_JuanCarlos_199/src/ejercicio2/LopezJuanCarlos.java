@@ -17,8 +17,7 @@ public class LopezJuanCarlos {
 		System.out.println("Introduce un año (entre 1801 y 2100): ");
 		anio = teclado.nextInt();
 		
-		if (anio < 1801 && anio > 2100) { //validacion del año
-		}	
+		
 		do {
 			System.out.println("El año no es válido");
 			}
