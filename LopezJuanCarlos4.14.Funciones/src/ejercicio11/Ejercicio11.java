@@ -12,7 +12,7 @@ public class Ejercicio11 {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		
-		System.out.println("Dame un numero entero: ");
+		System.out.println("Dame un numero para mostrar su tabala de multiplicar: ");
 		int numeroAmultiplicar = sc.nextInt();
 		
 		System.out.println(tablaMultiplicar(numeroAmultiplicar));

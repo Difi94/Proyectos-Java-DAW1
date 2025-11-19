@@ -43,15 +43,15 @@ public class Ejercicio6 {
         }
 		
 		for (int i = 0; i < precios.length; i++) {
-	        double precioConIVA = calculaIVA(precios[i]);
-	        System.out.println("El precio de la compra " + (i + 1) + " con IVA es: " + precioConIVA);
+	        double calculoIVA = precioConIVA(precios[i]);
+	        System.out.println("El precio de la compra " + (i + 1) + " con IVA es: " + calculoIVA);
 		}
 		
 		sc.close();
 	}
 	
 	//calcula el iva
-	public static double calculaIVA(double precio) {
+	public static double precioConIVA(double precio) {
 		//return precio * (21.0 / 100.0);
 		return precio + (precio * 0.21);
 	}
