@@ -21,7 +21,7 @@ public class Ejercicio14 {
 		dibuja(caracter, repeticion);
 		
 		sc.close();
-
+		
 	}
 	
 	public static void dibuja(String caracter, int repeticion) {
