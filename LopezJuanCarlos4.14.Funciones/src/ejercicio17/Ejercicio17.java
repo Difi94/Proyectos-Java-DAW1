@@ -33,7 +33,7 @@ public class Ejercicio17 {
 	
 	public static boolean esPrimo(int a) {
 		if (a <= 1) {
-            return false; // 0, 1 y negativos NO son primos
+            return false; 
         }
 
         for (int i = 2; i <= Math.sqrt(a); i++) {
