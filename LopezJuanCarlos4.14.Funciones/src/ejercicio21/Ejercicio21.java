@@ -1,3 +1,8 @@
+/*
+ * Descripcion: Crear un menu con opciones, pedir al usuario datos geometricos y dar los resultados.
+ * Autor: Juan Carlos
+ * Fecha: 26/11/25
+ */
 package ejercicio21;
 
 import java.util.Scanner;
