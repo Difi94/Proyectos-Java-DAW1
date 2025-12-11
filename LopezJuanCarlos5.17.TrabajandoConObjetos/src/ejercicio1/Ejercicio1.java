@@ -37,26 +37,8 @@ public class Ejercicio1 {
 		
 		//3
 		int puntuacionTotal = 0;
-		
-		while (puntuacionTotal < puntuacionMax) {
-			
-			int[] pJ1 = null;
-			int[] pJ2 = null;
-			int[] pJ3 = null;
-			
-			for (int i = 0; i < puntuacionMax; i++) {
-				pJ1[i] = jugador1.lanzar();
-			}
-			
-			for (int i = 0; i < puntuacionMax; i++) {
-				pJ2[i] = jugador2.lanzar();
-			}
-			
-			for (int i = 0; i < puntuacionMax; i++) {
-				pJ3[i] = jugador3.lanzar();
-			}
-			
-		}
+		int[][] lanzamientos = new int [20][3];
+		int contadorLanzamientos = 0;
 
 		
 	}
