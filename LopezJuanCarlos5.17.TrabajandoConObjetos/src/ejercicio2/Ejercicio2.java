@@ -50,7 +50,7 @@ public class Ejercicio2 {
 		
 		DateTimeFormatter formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy");
 		fecha.format(formatter);
-		fecha.getDayOfWeek();
+		System.out.println(fecha.format(formatter));
 		fecha.isLeapYear();
 		System.out.println("El dia que naciste fue " + fecha.getDayOfWeek() + ".");
 		
